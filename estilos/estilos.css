@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  background-image: url(https://tse4.mm.bing.net/th?id=OIP.ZCwo-4sLEM4Rxqd7lGzAKgHaHa&pid=Api&P=0);
+  height: 90vh;
+}
+
+footer {
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: rgb(255, 123, 0);
+  border: 0;
+}
+
+.navbar-brand {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-link {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label {
+  border-radius: 50px;
+}
+
+.color {
+  background-color: rgb(28, 191, 219);
+}
+
+.accordion-button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.accordion-item {
+  background-color: grey;
+}
+
+.accordion-header {
+  background-color: red;
+}
+
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 17px;
+}
+
+.mw-100 {
+  border-radius: 50px;
+  margin: 0;
+}
+
+.card:hover {
+  transform: scale(1.1) translateY(-10px);
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.card {
+  transition: transform 0.3s;
+}
+
+.roll-in-left {
+  -webkit-animation: roll-in-left 0.6s ease-out both;
+  animation: roll-in-left 0.6s ease-out both;
+}
+
+@-webkit-keyframes roll-in-left {
+  0% {
+    transform: translateX(-800px) rotate(-540deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+@keyframes roll-in-left {
+  0% {
+    transform: translateX(-800px) rotate(-540deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+}/*# sourceMappingURL=estilos.css.map */
